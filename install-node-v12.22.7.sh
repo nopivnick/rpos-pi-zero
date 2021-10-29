@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 export NODE_VER=12.22.7
 if ! node --version | grep -q ${NODE_VER}; then
