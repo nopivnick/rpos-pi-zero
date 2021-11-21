@@ -1,0 +1,13 @@
+[Unit]
+Description=rpos service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=
+WorkingDirectory=
+
+[Install]
+WantedBy=multi-user.target
